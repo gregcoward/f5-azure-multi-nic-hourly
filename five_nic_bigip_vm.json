@@ -222,7 +222,7 @@
       "plan": {
         "name": "[parameters('f5SKU')]",
         "publisher": "f5-networks",
-        "product": "f5-big-ip"
+        "product": "f5-big-ip-hourly"
 
       },
       "properties": {
@@ -240,7 +240,7 @@
         "storageProfile": {
           "imageReference": {
             "publisher": "f5-networks",
-            "offer": "f5-big-ip",
+            "offer": "f5-big-ip-hourly",
             "sku": "[parameters('f5SKU')]",
             "version": "latest"
           },
